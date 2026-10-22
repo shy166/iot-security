@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <style>
+    text { font-family: 'Iosevka', monospace; text-anchor: middle; dominant-baseline: middle; }
+    .link { stroke: #6c7086; stroke-width: 2; stroke-dasharray: 6 6; }
+    .door { fill: #000000; stroke: #cdd6f4; stroke-width: 2.5; }
+    .handle { fill: #000000; stroke: #6c7086; stroke-width: 2; }
+    .foot { fill: #000000; stroke: #6c7086; stroke-width: 2; }
+    .gw { fill: #000000; stroke: #cdd6f4; stroke-width: 2; }
+    .wifi { fill: none; stroke: #cdd6f4; stroke-width: 2.5; stroke-linecap: round; }
+    .dot { fill: #cdd6f4; }
+    .temp { fill: #ff0000; font-size: 26px; font-weight: bold; }
+  </style>
+  
+
+  <rect class="foot" x="325" y="461" width="22" height="11" rx="2" />
+  <rect class="foot" x="453" y="461" width="22" height="11" rx="2" />
+  <rect class="door" x="310" y="40" width="180" height="140" rx="12" />
+
+  <rect class="door" x="310" y="186" width="180" height="274" rx="12" />
+
+  <rect class="handle" x="458" y="70" width="10" height="80" rx="5" />
+  <rect class="handle" x="458" y="210" width="10" height="120" rx="5" />
+
+  <circle class="dot" cx="350" cy="122" r="3.5" />
+  <path class="wifi" d="M344.3 114.3 A8 8 0 0 1 355.7 114.3" />
+  <path class="wifi" d="M339.4 109.4 A15 15 0 0 1 360.6 109.4" />
+  <path class="wifi" d="M334.4 104.4 A22 22 0 0 1 365.6 104.4" />
+
+  <rect class="gw" x="335" y="210" width="90" height="40" rx="4" />
+  <text class="temp" x="380" y="231">80°C</text>
+</svg>
