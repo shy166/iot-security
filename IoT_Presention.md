@@ -118,6 +118,16 @@ style: |
 ![w:](IoT.svg)
 
 ---
+# Risks
+- **Weak/Default Credentials** *(root:root, hardcoded in firmware)*
+- **Misconfigurations** *(exposed endpoints)*
+- **Unpatched Software** *(known CVEs and flaws)*
+- **Legacy Encryption** *(RC4, DES)*
+- **Firmware Vulnerabilities** *(buffer overflows, RCEs)*
+- **Lack of Isolation** *lateral movement, pivoting*
+- **Side Channels, Malware, Botnets, Financial loss** 
+
+---
 
 # Breaking News
 ![bg right:40% width:800 ](fridge.svg)
@@ -131,17 +141,7 @@ style: |
   &nbsp; *($10m in lost goods)*
 ---
 
-# Risks
-- **Weak/Default Credentials** *(root:root, hardcoded in firmware)*
-- **Misconfigurations** *(exposed endpoints)*
-- **Unpatched Software** *(known CVEs and flaws)*
-- **Legacy Encryption** *(RC4, DES)*
-- **Firmware Vulnerabilities** *(buffer overflows, RCEs)*
-- **Lack of Isolation** *lateral movement, pivoting*
-- **Side Channels, Malware, Botnets, Financial loss** 
 
-
----
 
 # Prevention
 

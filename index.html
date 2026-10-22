@@ -212,6 +212,114 @@ section.sources a
 </ul>
 <p><img src="IoT.svg" alt="w:" /></p>
 </section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="3" data-background-color="#1e1e2e" data-color="#cdd6f4" data-style="
+@import url('https://cdn.jsdelivr.net/npm/@fontsource/iosevka/index.css');
+
+section 
+{
+  font-family: 'Iosevka', monospace;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 60px 70px 50px;
+}
+
+section h1 
+{
+  font-size: 48px;
+  color: #cdd6f4;
+  border: none;
+  margin: 0 0 32px;
+}
+
+section h1::before 
+{
+  content: &quot;$ &quot;;
+  color: #ff0000;
+}
+
+section ul 
+{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  counter-reset: line;
+}
+
+section li 
+{
+  font-size: 28px;
+  margin: 0;
+  counter-increment: line;
+}
+
+section li::before 
+{
+  content: counter(line, decimal-leading-zero) &quot;  &quot;;
+  color: #6c7086;
+}
+
+section li strong 
+{
+  color: #cdd6f4;
+}
+
+section li em 
+{
+  font-style: normal;
+  color: #6c7086;
+  margin-left: 12px;
+}
+
+section.one 
+{
+  justify-content: center;
+  text-align: center;
+}
+
+section.one h1 
+{
+  font-size: 64px;
+}
+
+section.one p 
+{
+  color: #6c7086;
+  font-size: 28px;
+}
+
+section.sources ul 
+{
+  gap: 6px;
+}
+
+section.sources li 
+{
+  font-size: 25px;
+}
+
+section.sources a 
+{
+  color: #89b4fa;
+  text-decoration: none;
+}
+" lang="en-US" style="--background-color:#1e1e2e;--color:#cdd6f4;--style:
+@import url('https://cdn.jsdelivr.net/npm/@fontsource/iosevka/index.css')
+;color:#cdd6f4;background-color:#1e1e2e;background-image:none;">
+<h1 id="risks">Risks</h1>
+<ul>
+<li><strong>Weak/Default Credentials</strong> <em>(root:root, hardcoded in firmware)</em></li>
+<li><strong>Misconfigurations</strong> <em>(exposed endpoints)</em></li>
+<li><strong>Unpatched Software</strong> <em>(known CVEs and flaws)</em></li>
+<li><strong>Legacy Encryption</strong> <em>(RC4, DES)</em></li>
+<li><strong>Firmware Vulnerabilities</strong> <em>(buffer overflows, RCEs)</em></li>
+<li><strong>Lack of Isolation</strong> <em>lateral movement, pivoting</em></li>
+<li><strong>Side Channels, Malware, Botnets, Financial loss</strong></li>
+</ul>
+</section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section data-background-color="#1e1e2e" data-color="#cdd6f4" data-style="
 @import url('https://cdn.jsdelivr.net/npm/@fontsource/iosevka/index.css');
 
@@ -307,7 +415,7 @@ section.sources a
   text-decoration: none;
 }
 " lang="en-US" style="--background-color:#1e1e2e;--color:#cdd6f4;--style:@import url('https://cdn.jsdelivr.net/npm/@fontsource/iosevka/index.css')
-;color:#cdd6f4;background-color:#1e1e2e;background-image:none;--marpit-advanced-background-split:40%;" data-marpit-advanced-background="background" data-marpit-advanced-background-split="right"><div data-marpit-advanced-background-container="true" data-marpit-advanced-background-direction="horizontal"><figure style="background-image:url(&quot;fridge.svg&quot;);background-size:800px auto;"></figure></div></section></foreignObject><foreignObject width="60%" height="720"><section id="3" data-background-color="#1e1e2e" data-color="#cdd6f4" data-style="
+;color:#cdd6f4;background-color:#1e1e2e;background-image:none;--marpit-advanced-background-split:40%;" data-marpit-advanced-background="background" data-marpit-advanced-background-split="right"><div data-marpit-advanced-background-container="true" data-marpit-advanced-background-direction="horizontal"><figure style="background-image:url(&quot;fridge.svg&quot;);background-size:800px auto;"></figure></div></section></foreignObject><foreignObject width="60%" height="720"><section id="4" data-background-color="#1e1e2e" data-color="#cdd6f4" data-style="
 @import url('https://cdn.jsdelivr.net/npm/@fontsource/iosevka/index.css');
 
 section 
@@ -509,115 +617,7 @@ section.sources a
   color: #89b4fa;
   text-decoration: none;
 }
-" lang="en-US" style="color:#cdd6f4;" data-marpit-advanced-background="pseudo" data-marpit-advanced-background-split="right"></section></foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="4" data-background-color="#1e1e2e" data-color="#cdd6f4" data-style="
-@import url('https://cdn.jsdelivr.net/npm/@fontsource/iosevka/index.css');
-
-section 
-{
-  font-family: 'Iosevka', monospace;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  padding: 60px 70px 50px;
-}
-
-section h1 
-{
-  font-size: 48px;
-  color: #cdd6f4;
-  border: none;
-  margin: 0 0 32px;
-}
-
-section h1::before 
-{
-  content: &quot;$ &quot;;
-  color: #ff0000;
-}
-
-section ul 
-{
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 18px;
-  counter-reset: line;
-}
-
-section li 
-{
-  font-size: 28px;
-  margin: 0;
-  counter-increment: line;
-}
-
-section li::before 
-{
-  content: counter(line, decimal-leading-zero) &quot;  &quot;;
-  color: #6c7086;
-}
-
-section li strong 
-{
-  color: #cdd6f4;
-}
-
-section li em 
-{
-  font-style: normal;
-  color: #6c7086;
-  margin-left: 12px;
-}
-
-section.one 
-{
-  justify-content: center;
-  text-align: center;
-}
-
-section.one h1 
-{
-  font-size: 64px;
-}
-
-section.one p 
-{
-  color: #6c7086;
-  font-size: 28px;
-}
-
-section.sources ul 
-{
-  gap: 6px;
-}
-
-section.sources li 
-{
-  font-size: 25px;
-}
-
-section.sources a 
-{
-  color: #89b4fa;
-  text-decoration: none;
-}
-" lang="en-US" style="--background-color:#1e1e2e;--color:#cdd6f4;--style:
-@import url('https://cdn.jsdelivr.net/npm/@fontsource/iosevka/index.css')
-;color:#cdd6f4;background-color:#1e1e2e;background-image:none;">
-<h1 id="risks">Risks</h1>
-<ul>
-<li><strong>Weak/Default Credentials</strong> <em>(root:root, hardcoded in firmware)</em></li>
-<li><strong>Misconfigurations</strong> <em>(exposed endpoints)</em></li>
-<li><strong>Unpatched Software</strong> <em>(known CVEs and flaws)</em></li>
-<li><strong>Legacy Encryption</strong> <em>(RC4, DES)</em></li>
-<li><strong>Firmware Vulnerabilities</strong> <em>(buffer overflows, RCEs)</em></li>
-<li><strong>Lack of Isolation</strong> <em>lateral movement, pivoting</em></li>
-<li><strong>Side Channels, Malware, Botnets, Financial loss</strong></li>
-</ul>
-</section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="5" data-background-color="#1e1e2e" data-color="#cdd6f4" data-style="
+" lang="en-US" style="color:#cdd6f4;" data-marpit-advanced-background="pseudo" data-marpit-advanced-background-split="right"></section></foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="5" data-background-color="#1e1e2e" data-color="#cdd6f4" data-style="
 @import url('https://cdn.jsdelivr.net/npm/@fontsource/iosevka/index.css');
 
 section 
